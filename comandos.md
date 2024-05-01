@@ -25,3 +25,7 @@ List:
 * $ python manage.py migrate
 
 * $ python manage.py runserver
+
+# Instalar el Paquete Bootstrap4
+
+$ pip install django-bootstrap4

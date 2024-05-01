@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "bootstrap4",
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = "Proyecto1.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": ['C:/Users/soporte/Documents/PP_TOULOUSE_E1/PP_TOULOUSE_E1/Proyecto1/Proyecto1/templates'],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
